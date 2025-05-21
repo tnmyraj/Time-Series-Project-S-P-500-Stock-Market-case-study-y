@@ -4,20 +4,20 @@ This Jupyter Notebook explores the correlation between different S&P 500 company
 📁 Project Overview
 The notebook performs the following steps:
 
-Data Collection
+1. Data Collection
 
-Loads multiple CSV files using glob and merges them into a single DataFrame.
+    * Loads multiple CSV files using glob and merges them into a single DataFrame.
 
-Each CSV contains historical stock price data for a company listed on the S&P 500 index.
+    * Each CSV contains historical stock price data for a company listed on the S&P 500 index.
 
-Exploratory Data Analysis
+2. Exploratory Data Analysis
 
-Displays samples of the dataset.
+    *  Displays samples of the dataset.
 
-Visualizes the relationship between various stock prices using Seaborn.
+    *  Visualizes the relationship between various stock prices using Seaborn.
 
-Correlation Analysis
+3. Correlation Analysis
 
-Computes a correlation matrix using .corr().
+    *  Computes a correlation matrix using .corr().
 
-Plots a heatmap to understand how different stocks move relative to each other.
+    *  Plots a heatmap to understand how different stocks move relative to each other.
